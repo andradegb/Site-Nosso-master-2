@@ -19,15 +19,9 @@ section{
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    transition: all 0.5s;
-    background: #ff6637;
+    background: #fac031;
     width: 500px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-section:hover
-{
-    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.685) 0px 22px 70px 4px;
 }
 
 section h2{
@@ -80,7 +74,7 @@ form button{
     font-size: 16px;
     background: transparent;
     border: 2px solid #fff;
-    color: rgb(0, 0, 0);
+    color: #fff;
     transition: all 1s;
     margin-bottom: 20px;
 }
@@ -88,6 +82,14 @@ form button{
 form button:hover{
     background: #fff;
     border-radius: 16px;
+}
+
+/* Logo Transparente */
+
+.logo{
+    opacity: 30%;
+    width: 23px;
+    height: 10px;
 }
 
 /* pagina Obrigado */
@@ -103,24 +105,26 @@ form button:hover{
 
 .text{
     font-size: 45px;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
 .paragrafo{
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 50px;
 }
 
 .btn{
     padding: 15px 55px;
-    background: #fff;
+    background: #ffffff;
     text-decoration: none;
-    color: #fac031;
+    color: #fac032;
     font-size: 18px;
-    transition: all 0.5;
+    transition: all 0.8s;
 }
 
 .btn:hover{
-    border-radius: 16px;
+    border-radius: 13px;
+    background: #fac031;
+    color: #ffffff;
 }
